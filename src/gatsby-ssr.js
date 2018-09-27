@@ -7,7 +7,6 @@ export function onRenderBody({ setPostBodyComponents }, options){
 		if (i === 'plugins') continue
 		if (i === 'minify') {
 			minify=options[i]
-			continue
 		}
 		let opt = options[i]
 		if (Array.isArray(opt)) {
